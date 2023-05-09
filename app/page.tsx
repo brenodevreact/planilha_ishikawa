@@ -8,31 +8,31 @@ export default function Home() {
 
       <div className="flex flex-col gap-8 min-w-full">
         <Link href="/causas">
-          <button className="min-w-full bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+          <button className="min-w-full bg-black shadow-7xl shadow-indigo-500	 p-3 rounded-md text-xl">
             Causas
           </button>
         </Link>
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Problemas analisados
         </button>
 
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Ações corretivas
         </button>
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Controle das ações
         </button>
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Espinha de peixe
         </button>
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Relatório
         </button>
 
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Dashboards
         </button>
-        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+        <button className="shadow-7xl shadow-indigo-500 p-3 rounded-md text-xl">
           Instruções
         </button>
       </div>
