@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex justify-center align-middle min-h-screen flex-col items-center p-24 gap-12">
+    <main className="flex justify-center align-middle  flex-col items-center p-12 gap-12">
       <h2 className="text-3xl	text-center">Selecione o destino</h2>
 
       <div className="flex flex-col gap-8 min-w-full">
@@ -13,17 +13,27 @@ export default function Home() {
           </button>
         </Link>
         <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
-          Causas
+          Problemas analisados
         </button>
 
         <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
-          Causas
+          Ações corretivas
         </button>
         <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
-          Causas
+          Controle das ações
         </button>
         <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
-          Causas
+          Espinha de peixe
+        </button>
+        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+          Relatório
+        </button>
+
+        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+          Dashboards
+        </button>
+        <button className="bg-gradient-to-r from-indigo-500 p-3 rounded-md text-xl">
+          Instruções
         </button>
       </div>
     </main>
